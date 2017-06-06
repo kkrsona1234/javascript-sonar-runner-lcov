@@ -1,0 +1,5 @@
+projectKey=org.sonarqube:javascript-lcov-sq-scanner
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:javascript-lcov-sq-scanner
+ceTaskId=AVx-r4dFTdklkcg3xJxI
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVx-r4dFTdklkcg3xJxI
