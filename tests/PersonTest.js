@@ -9,5 +9,10 @@ TestCase('PersonTest', {
         var p = new Person('John', 'Doe');
         assertEquals('Should have used only first and last name', 'John Doe', p.whoAreYou());
     }
+    
+    testWhoAreYouWithNoMiddleName : function() {
+        var p = new Person('John', 'Doe');
+        assertEquals('Should have used only first and last name', 'John Doe', p.whoAreYou());
+    }
 
 });
