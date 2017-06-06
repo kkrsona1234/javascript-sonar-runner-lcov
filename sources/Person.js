@@ -4,12 +4,7 @@ var Person = function(first, last, middle) {
     this.middle = middle;
     this.last = last;
 };
-var address = function (street, city, state){ 
-    
-    this.street = street;
-    this.city = city;
-    this.state = state;
-};
+
 
 Person.prototype = {
 
@@ -18,9 +13,5 @@ Person.prototype = {
     }
 
     
-    address.prototype = {
-
-    myaddress : function() {
-        return this.street + (this.city ? ' ' + this.city: '') + ' ' + this.state;
-    }
+    
 };
